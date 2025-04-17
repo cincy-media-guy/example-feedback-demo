@@ -1,18 +1,32 @@
 /* This is a very basic stylesheet */
 
 body {
-  background-color: #f8f8f8;
+  background-color: #f4f4f4; /* better contrast */
   font-family: Arial, sans-serif;
-  color: #333;
-  padding: 2em;
+  color: #222222; /* a little darker */
+  padding: 2rem;
   line-height: 1.6;
+  max-width: 750px;
+  margin: auto; /* centers it on the page */
 }
 
 h1 {
-  color: #990000;
+  color: #b30000; /* match your color scheme */
   font-size: 2.5em;
+  text-align: center;
 }
 
+/* Suggested additions for readability */
 p {
-  margin-bottom: 1em;
+  margin-bottom: 1.5rem;
+  font-size: 125%;
+}
+
+/* Optional */
+main {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  /* You could adjust this box shadow to make it pop a little more */
 }
